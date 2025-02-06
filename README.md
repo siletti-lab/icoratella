@@ -3,6 +3,8 @@
 
 In this repository, you will find the code used in my study, organized into three main sections: *meta-atlas manipulation*, *classifier development* and *tumor clustering analysis*.
 
+Here's a brief summary of my work.
+
 ![graphical abstract ](https://github.com/siletti-lab/icoratella/blob/main/graphical_abstract.png)
 
 Tumors are heterogeneous entities exhibiting a variety of cell types in complex spatial configurations, complicating the analysis of tumor composition and origin. The genetic and phenotypic diversity of cancer cells hides the initial mutations and cellular behaviors that lead to tumorigenesis, making it challenging to trace their evolutionary paths. Single-cell RNA sequencing has shed light on this heterogeneity, demonstrating that tumor cells often mirror specific developmental lineages. Therefore, identifying resemblances between tumor cells and specific healthy developmental cell types provides a starting point for a better understanding of tumor cell characteristics, helping to navigate tumor heterogeneity and potentially enhancing our understanding of tumorigenic processes. 
