@@ -21,3 +21,7 @@ To do this, I loaded the anndata file `noAdolescence_nocc_noclusters_SecondManua
 **5:  `extracting_interneurons.ipynb`**
 
 In this notebook, I loaded the Braun Anndata object `human_dev_GRCh38-3.0.0.h5ad` and selected some subcortical interneurons, to integrate them into the main notebook with the developing brain meta-atlas. This integration aims to enhance the diversity and accuracy of cell type annotations in the developing brain meta-atlas.
+
+**6:  `fixing_metatadata_of_training_dataset.ipynb`**
+
+This notebook loads, visualizes, and annotates multiple versions of the training dataset, focusing on standardizing key metadata columns for consistency.
