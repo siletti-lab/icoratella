@@ -13,3 +13,11 @@ In this notebook, I analyzed the clusters stored in the anndata object from `...
 **3: `gIPC_reannotation_eliminating_astro.ipynb`**
 
 In this notebook, I performed a clustering analysis on Cluster 9, previously annotated as gIPCs, obtained from the Cytograph pipeline. The analysis was necessary because the UMAP visualization suggested that Cluster 9 contained cells that likely belonged to astrocytes. Upon further investigation, this assumption was confirmed.
+
+**4:  `gIPC_reannotation_after_removing_astro.ipynb`**
+
+To do this, I loaded the anndata file `noAdolescence_nocc_noclusters_SecondManualAnnotations.h5ad`, which contains the updated annotations generated in the `gIPC_reannotation_eliminating_astro.ipynb` notebook. Then, I performed a clustering analysis on the newly defined gIPCs, to see if it was possible to refine the annotation into pre-OPCs and pre-Astrocytes.
+
+**5:  `extracting_interneurons.ipynb`**
+
+In this notebook, I loaded the Braun Anndata object `human_dev_GRCh38-3.0.0.h5ad` and selected some subcortical interneurons, to integrate them into the main notebook with the developing brain meta-atlas. This integration aims to enhance the diversity and accuracy of cell type annotations in the developing brain meta-atlas.
