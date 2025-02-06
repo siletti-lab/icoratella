@@ -26,6 +26,9 @@ In this notebook, I loaded the Braun Anndata object `human_dev_GRCh38-3.0.0.h5ad
 
 This notebook loads, visualizes, and annotates multiple versions of the training dataset, focusing on standardizing key metadata columns for consistency.
 
-**6:  `DEA_of_cell_classes.ipynb`**
+**7:  `DEA_of_cell_classes.ipynb`**
 
 In this notebook, I analyzed the manual annotation stored in the column 'ThirdManualAnnotation' from noAdolescence_nocc_noclusters_ThirdManualAnnotations_Interneurons.h5ad, retrieving the top 25 marker genes for each label.
+
+**8:  `Figure_7.ipynb`**
+In this notebook I generated the different panels of Figure 7.
