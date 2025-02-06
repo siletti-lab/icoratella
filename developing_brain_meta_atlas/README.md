@@ -11,4 +11,5 @@ This notebook is the main file. It provides a summary of the steps taken to tran
 In this notebook, I analyzed the clusters stored in the anndata object from `...noAdolescence.h5ad` to assign labels to them. This process involved retrieving the top 25 marker genes for each cluster and overlaying known markers on the UMAP visualization of the training dataset.
 
 **3: `gIPC_reannotation_eliminating_astro.ipynb`**
+
 In this notebook, I performed a clustering analysis on Cluster 9, previously annotated as gIPCs, obtained from the Cytograph pipeline. The analysis was necessary because the UMAP visualization suggested that Cluster 9 contained cells that likely belonged to astrocytes. Upon further investigation, this assumption was confirmed.
