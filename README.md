@@ -1,7 +1,7 @@
 # Classifying Glioblastoma cells based on developmental cell type resemblance
 #### Code used for the study
 
-In this repository, you will find the code used in my study, organized into three main sections: *meta-atlas manipulation*, *classifier development* and *tumor clustering analysis*.
+In this repository, you will find the code used in my study, organized into three main sections: *meta-atlas manipulation*, *classifiers development* and *tumor clustering analysis*.
 
 Here's a brief summary of my work.
 
