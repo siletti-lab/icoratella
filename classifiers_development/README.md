@@ -1,4 +1,4 @@
-### Classifiers implementations
+### Classifiers development
 
 The files uploaded in this folder explain how I developed the Random Forest classifier and the Mahalanobis distance-based classifiers.
 
