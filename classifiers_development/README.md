@@ -18,3 +18,13 @@ In this script, I trained the Mahalanobis distance-based classifier and saved th
 **4: `Mahalanobis_training.ipynb`**
 
 In this code, I used the Random Forest classifier—previously trained in `Mahalanobis_training.ipynb` and saved to disk—to analyze the GBM dataset. 
+
+
+**5: `Random_Forest_Figure_9.ipynb`**
+
+In this notebook, I generated the panels for Figure 9 of the report.
+
+
+**6: `Mahalanobis_Figure_10.ipynb`**
+
+In this notebook, I generated the panels for Figure 10 of the report.
