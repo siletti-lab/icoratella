@@ -30,6 +30,11 @@ This notebook loads, visualizes, and annotates multiple versions of the training
 
 In this notebook, I analyzed the manual annotation stored in the column 'ThirdManualAnnotation' from noAdolescence_nocc_noclusters_ThirdManualAnnotations_Interneurons.h5ad, retrieving the top 25 marker genes for each label.
 
-**8:  `Figure_7.ipynb`**
 
-In this notebook I generated the different panels of Figure 7.
+**8:  `clustering_analysis_scanpy_noAdolescence.ipynb`**
+
+I reanalyzed the dataset using the scanpy pipeline to validate the results obtained with Cytograph, after eliminating some clusters and cc genes (noAdolescence_nocc_noclusters_FirstManualAnnotations), generated in notebook 1. Specifically, I preprocessed, integrated, and clustered the dataset, and generated all the panels for Figure S1.
+
+**9:  `Figure_7_A_B_C_D_and_S2.ipynb`**
+
+In this notebook I generated the different panels of Figure 7 and Figure S2.
