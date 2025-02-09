@@ -1,17 +1,19 @@
-### Classifiers development
+### GBM manipulation and tumor clustering analysis
 
-The files uploaded in this folder explain how I developed the Random Forest classifier and the Mahalanobis distance-based classifiers.
+The files uploaded in this folder pertain to the GBM test dataset, covering data manipulation, analysis, and images.
 
-**1: `Random_Forest_training.ipynb`**
+**1: `extracting_individual_samples_from_GBM.ipynb`**
 
-In this script, I trained the Random Forest classifier and saved the model to disk. This allows the model to be utilized for testing in `Random_Forest_testing.ipynb`.
+In this notebook, I demonstrate how I extracted the sample SL040 from the full test dataset. This specific sample was then used for further analysis, including examining prediction results and performing clustering analysis on this individual sample.
 
-**2: `Random_Forest_testing.ipynb`**
+**2: `GBM_manipulation_and_Figure_8.ipynb`**
 
-In this notebook, I applied the Random Forest classifier—previously trained in `Random_Forest_training.ipynb` and saved to disk—to the GBM dataset. Additionally, I evaluated the results by identifying the most important genes for each class.
+In this notebook, I performed a computation of quality metrics for the glioblastoma test dataset and generation of Figure 8.
 
-**3: `Mahalanobis_training.ipynb`**
+**3: `umap_tumor_clustering_sample_SL040.ipynb`**
 
-In this script, I trained the Mahalanobis distance-based classifier and saved the model to disk. Then, I computed the "important genes" for the classification. This allows the model to be utilized for testing in `Mahalanobis_testing.ipynb`.
+In this notebook, I preprocessed sample SL040 and saved a processed copy. This prepared sample will be utilized for analyzing classifier predictions, and visualization. After the preprocessing, I conducted a tumor clustering analysis. I also generated panel A and B of **Figure 16**.
 
+**4: `umap_tumor_clustering_sample_KS414.ipynb`**
 
+In this notebook, I preprocessed the sample KS414 and saved a processed copy. This sample will be used for analyzing classifier predictions and for visualization purposes. Following the preprocessing, I performed a tumor clustering analysis. In this notebook I also generated panel A and B of **Figure 17**.
